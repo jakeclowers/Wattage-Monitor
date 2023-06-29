@@ -14,9 +14,10 @@ To install and set up the wattage monitor, follow these steps:
 
 Clone this repository to your local machine:
 
-bash
-Copy code
+
+**Copy code**
 git clone https://github.com/jakeclowers/Wattage-Monitor.git
+
 Install the required dependencies by running the following command in the project's root directory:
 
 Copy code
@@ -27,7 +28,8 @@ Go to the Google Developers Console.
 Create a new project or select an existing project.
 Enable the Google Sheets API for your project.
 Create credentials for the API and download the JSON file.
-Rename the JSON file to credentials.json and place it in the project's root directory.
+Rename the JSON file to credentials.json and place it in the project's gspread directory.
+
 Configure the Google Sheets API endpoint:
 
 Open the config.py file in the project's root directory.
