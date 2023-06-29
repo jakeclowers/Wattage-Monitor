@@ -7,20 +7,25 @@ Prerequisites
 Before setting up the wattage monitor, ensure that you have the following:
 
 An AMD CPU and/or NVIDIA graphics card(s) installed in your system.
+
 Python 3.x installed on your system.
+
 Access to a Google account.
-Installation
+
+**Installation
+**
 To install and set up the wattage monitor, follow these steps:
 
 Clone this repository to your local machine:
 
-
 **Copy code**
+
 git clone https://github.com/jakeclowers/Wattage-Monitor.git
 
 Install the required dependencies by running the following command in the project's root directory:
 
-Copy code
+**Copy code**
+
 pip install -r requirements.txt
 Set up Google Sheets API:
 
